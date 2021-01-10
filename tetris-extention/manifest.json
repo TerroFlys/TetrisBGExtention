@@ -1,0 +1,13 @@
+{
+    "name": "Tetris Exstention",
+    "version": "1.0",
+    "description": "Tetris!",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.tetris.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+  }
+  
